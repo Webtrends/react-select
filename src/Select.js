@@ -517,7 +517,7 @@ var Select = React.createClass({
             if (this.props.optionComponentClass) {
                 var OptionComponent = this.props.optionComponentClass;
                 return <OptionComponent ref={ref}
-                    source={option}
+                    source={op}
                     key={'option-' + op.value}
                     className={optionClass}
                     onMouseEnter={mouseEnter}
