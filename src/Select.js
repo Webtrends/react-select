@@ -37,7 +37,7 @@ var Select = React.createClass({
         inputProps: React.PropTypes.object,        // custom attributes for the Input (in the Select-control) e.g: {'data-foo': 'bar'}
 
         optionFooter: React.PropTypes.object,            // custom footer menu option
-        optionComponentClass: React.PropTypes.object,            // custom menu option renderer
+        optionComponentClass: React.PropTypes.func,            // custom menu option renderer
 
         /*
 
